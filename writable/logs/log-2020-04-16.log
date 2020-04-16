@@ -1,0 +1,120 @@
+CRITICAL - 2020-04-16 03:19:22 --> Invalid file: {0}
+#0 I:\server\htdocs\crud_codeing\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('I:\\server\\htdoc...')
+#1 I:\server\htdocs\crud_codeing\system\Common.php(1071): CodeIgniter\View\View->render('I:\\server\\htdoc...', Array, true)
+#2 I:\server\htdocs\crud_codeing\app\Controllers\Home.php(7): view('I:\\server\\htdoc...')
+#3 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 I:\server\htdocs\crud_codeing\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 I:\server\htdocs\crud_codeing\system\Commands\Server\rewrite.php(34): require_once('I:\\server\\htdoc...')
+#8 {main}
+CRITICAL - 2020-04-16 03:20:44 --> Invalid file: {0}
+#0 I:\server\htdocs\crud_codeing\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('I:\\server\\htdoc...')
+#1 I:\server\htdocs\crud_codeing\system\Common.php(1071): CodeIgniter\View\View->render('I:\\server\\htdoc...', Array, true)
+#2 I:\server\htdocs\crud_codeing\app\Controllers\Home.php(7): view('I:\\server\\htdoc...')
+#3 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 I:\server\htdocs\crud_codeing\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 I:\server\htdocs\crud_codeing\system\Commands\Server\rewrite.php(34): require_once('I:\\server\\htdoc...')
+#8 {main}
+CRITICAL - 2020-04-16 03:21:49 --> Invalid file: {0}
+#0 I:\server\htdocs\crud_codeing\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('I:\\server\\htdoc...')
+#1 I:\server\htdocs\crud_codeing\system\Common.php(1071): CodeIgniter\View\View->render('I:\\server\\htdoc...', Array, true)
+#2 I:\server\htdocs\crud_codeing\app\Controllers\Home.php(7): view('I:\\server\\htdoc...')
+#3 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(910): App\Controllers\Home->index('home')
+#4 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 I:\server\htdocs\crud_codeing\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 I:\server\htdocs\crud_codeing\system\Commands\Server\rewrite.php(34): require_once('I:\\server\\htdoc...')
+#8 {main}
+CRITICAL - 2020-04-16 03:24:42 --> include_once(../layouts/header.php): failed to open stream: No such file or directory
+#0 I:\server\htdocs\crud_codeing\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'I:\\server\\htdoc...', 2, Array)
+#1 I:\server\htdocs\crud_codeing\app\Views\pages\home.php(2): include_once()
+#2 I:\server\htdocs\crud_codeing\system\View\View.php(236): include('I:\\server\\htdoc...')
+#3 I:\server\htdocs\crud_codeing\system\Common.php(1071): CodeIgniter\View\View->render('pages/home.php', Array, true)
+#4 I:\server\htdocs\crud_codeing\app\Controllers\Home.php(7): view('pages/home.php')
+#5 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(910): App\Controllers\Home->index('home')
+#6 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 I:\server\htdocs\crud_codeing\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 I:\server\htdocs\crud_codeing\system\Commands\Server\rewrite.php(34): require_once('I:\\server\\htdoc...')
+#10 {main}
+CRITICAL - 2020-04-16 03:25:45 --> include_once(../layouts/footer.php): failed to open stream: No such file or directory
+#0 I:\server\htdocs\crud_codeing\app\Views\pages\home.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'I:\\server\\htdoc...', 235, Array)
+#1 I:\server\htdocs\crud_codeing\app\Views\pages\home.php(235): include_once()
+#2 I:\server\htdocs\crud_codeing\system\View\View.php(236): include('I:\\server\\htdoc...')
+#3 I:\server\htdocs\crud_codeing\system\Common.php(1071): CodeIgniter\View\View->render('pages/home.php', Array, true)
+#4 I:\server\htdocs\crud_codeing\app\Controllers\Home.php(7): view('pages/home.php')
+#5 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(910): App\Controllers\Home->index('home')
+#6 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 I:\server\htdocs\crud_codeing\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 I:\server\htdocs\crud_codeing\system\Commands\Server\rewrite.php(34): require_once('I:\\server\\htdoc...')
+#10 {main}
+CRITICAL - 2020-04-16 10:26:27 --> Class 'CodeIgniter\Model\PostModel' not found
+#0 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(910): App\Controllers\Home->create()
+#1 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\server\htdocs\crud_codeing\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 I:\server\htdocs\crud_codeing\system\Commands\Server\rewrite.php(34): require_once('I:\\server\\htdoc...')
+#5 {main}
+CRITICAL - 2020-04-16 10:30:19 --> Class 'CodeIgniter\Model\PostModel' not found
+#0 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(910): App\Controllers\Home->create()
+#1 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\server\htdocs\crud_codeing\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 I:\server\htdocs\crud_codeing\system\Commands\Server\rewrite.php(34): require_once('I:\\server\\htdoc...')
+#5 {main}
+CRITICAL - 2020-04-16 10:31:39 --> Class 'App\Models\BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-04-16 10:32:06 --> Class 'CodeIgniter\Model\PostModel' not found
+#0 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(910): App\Controllers\Home->create()
+#1 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\server\htdocs\crud_codeing\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 I:\server\htdocs\crud_codeing\system\Commands\Server\rewrite.php(34): require_once('I:\\server\\htdoc...')
+#5 {main}
+CRITICAL - 2020-04-16 10:33:02 --> Class 'CodeIgniter\Model\PostModel' not found
+#0 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(910): App\Controllers\Home->create()
+#1 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\server\htdocs\crud_codeing\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 I:\server\htdocs\crud_codeing\system\Commands\Server\rewrite.php(34): require_once('I:\\server\\htdoc...')
+#5 {main}
+CRITICAL - 2020-04-16 10:33:34 --> Class 'CodeIgniter\Models\PostModel' not found
+#0 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(910): App\Controllers\Home->create()
+#1 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\server\htdocs\crud_codeing\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 I:\server\htdocs\crud_codeing\system\Commands\Server\rewrite.php(34): require_once('I:\\server\\htdoc...')
+#5 {main}
+CRITICAL - 2020-04-16 10:33:55 --> Class 'App\Model\PostModel' not found
+#0 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(910): App\Controllers\Home->create()
+#1 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\server\htdocs\crud_codeing\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 I:\server\htdocs\crud_codeing\system\Commands\Server\rewrite.php(34): require_once('I:\\server\\htdoc...')
+#5 {main}
+CRITICAL - 2020-04-16 10:34:50 --> Class 'CodeIgniter\Model\PostModel' not found
+#0 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(910): App\Controllers\Home->create()
+#1 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\server\htdocs\crud_codeing\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 I:\server\htdocs\crud_codeing\system\Commands\Server\rewrite.php(34): require_once('I:\\server\\htdoc...')
+#5 {main}
+CRITICAL - 2020-04-16 10:37:01 --> Class 'CodeIgniter\Model\PostModel' not found
+#0 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(910): App\Controllers\Home->create()
+#1 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\server\htdocs\crud_codeing\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 I:\server\htdocs\crud_codeing\system\Commands\Server\rewrite.php(34): require_once('I:\\server\\htdoc...')
+#5 {main}
+CRITICAL - 2020-04-16 10:40:09 --> Class 'CodeIgniter\Model\PostModel' not found
+#0 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(910): App\Controllers\Home->create()
+#1 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 I:\server\htdocs\crud_codeing\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\server\htdocs\crud_codeing\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 I:\server\htdocs\crud_codeing\system\Commands\Server\rewrite.php(34): require_once('I:\\server\\htdoc...')
+#5 {main}
